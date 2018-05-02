@@ -1,5 +1,4 @@
 <?php
-header('Content-type: image/jpeg');
 
 if(!empty($_GET['id'])) {
     $url = "http://mandm.plearnjai.com/API/detailMovie.php?idmovie=" . $_GET['id'];
