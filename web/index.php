@@ -14,7 +14,7 @@ if(!empty($_GET['id'])) {
    // $new_height = $height * $percent;
 
     // Resample
-    $image_p = imagecreatetruecolor($new_width, $new_height);
+    $image_p = imagecreatetruecolor(239, 239);
     $image = imagecreatefromjpeg($urlpic);
     imagecopyresampled($image_p, $image, 0, 0, 0, 0, 239, 239, $width, $height);
 
